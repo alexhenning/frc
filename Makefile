@@ -1,0 +1,3 @@
+
+all:
+	gox --output="build/{{.OS}}/{{.Arch}}/{{.Dir}}" go.thoriumrobotics.com/frc.v0/cmds/...
