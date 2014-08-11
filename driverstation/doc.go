@@ -1,15 +1,19 @@
 // driverstation implements core DriverStation functionality, such as
-// enabling the robot.
+// enabling the robot and sending basic state information.
 //
-// This package is intended to provide the underlying DriverStation,
-// so that various CLI and GUI interfaces can be built on top of it.
+// This package is intended to provide the underlying DriverStation
+// protocol implementation, so that various CLI and GUI interfaces can
+// be built on top of it.
 //
-// TODO: ALlow IPs to be specified
-// TODO: Handle received messages
-// TODO: Resync
-// TODO: Reset
-// TODO: Better error handling
-// UNSUPPORTED: Joystick support
-// UNSUPPORTED: E-Stop
-// UNSUPPORTED: Logging
+// TODO:
+//     - Allow IPs to be specified
+//     - Handle received messages
+//     - Reset
+//     - Better error handling
+//
+// UNSUPPORTED:
+//
+//     - Joystick support
+//     - UNSUPPORTED: E-Stop
+//     - UNSUPPORTED: Logging
 package driverstation
